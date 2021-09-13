@@ -14,3 +14,109 @@
     --Fuente: 'Red Hat Display',
         sans-serif;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--Fuente);
+    background-color: var(--Pale-blue);
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 90vw;
+}
+
+.image-container {
+    overflow: hidden;
+    height: 40%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.image-hero {
+    width: 100%;
+}
+
+.text-container {
+    padding: 10px 20px 30px 20px;
+}
+
+.text-container__h2 {
+    font-size: 24px;
+    text-align: center;
+    color: var(--Dark-blue);
+}
+
+.text-container__p {
+    font-size: 14px;
+    text-align: center;
+    color: var(--Desaturated-blue);
+    line-height: 2;
+    font-weight: 500;
+    margin: 0px 10px 10px 10px;
+}
+
+.price-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+    background-color: var(--Very-pale-blue);
+    border-radius: 20px;
+    padding: 10px 0px;
+}
+
+.icon-music {
+    width: 50px;
+    height: 50px;
+}
+
+.price-box p {
+    font-size: 14px;
+    color: var(--Desaturated-blue);
+    line-height: 1.5;
+}
+
+.annual-plan {
+    color: var(--Dark-blue);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.link-change {
+    font-size: 14px;
+    color: var(--Bright-blue);
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-btn {
+    background-color: var(--Bright-blue);
+    border: none;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0px 5px 20px var(--Pale-blue);
+    margin-bottom: 20px;
+}
+
+.cancel-btn {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+    font-weight: bold;
+}
